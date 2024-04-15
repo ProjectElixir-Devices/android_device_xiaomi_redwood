@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/redwood/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Call the Leica Camera setup
-$(call inherit-product-if-exists, vendor/xiaomi/redwood-miuicamera/products/miuicamera.mk)
+#$(call inherit-product-if-exists, vendor/xiaomi/redwood-miuicamera/products/miuicamera.mk)
 
 # Dolby-Vision
 $(call inherit-product, hardware/Dolby-Vision/dolby-vision.mk)

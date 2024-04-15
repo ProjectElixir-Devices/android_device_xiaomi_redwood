@@ -238,5 +238,5 @@ CONFIG_IEEE80211AX := true
 include vendor/xiaomi/redwood/BoardConfigVendor.mk
 
 # Inherit from proprietary files for Leica Camera
--include vendor/xiaomi/redwood-miuicamera/products/board.mk
+#-include vendor/xiaomi/redwood-miuicamera/products/board.mk
 
